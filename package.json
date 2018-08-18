@@ -1,0 +1,32 @@
+{
+    "name": "cryto-react",
+    "version": "0.1.0",
+    "license": "MIT",
+    "main": "./src/index.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development"
+    },
+    "devDependencies": {
+        "babel-core": "6",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.11",
+        "html-webpack-plugin": "3.0.7",
+        "numeral": "^2.0.6",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-redux": "^5.0.7",
+        "react-select": "^2.0.0",
+        "redux": "^3.7.2",
+        "redux-thunk": "^2.3.0",
+        "style-loader": "^0.20.3",
+        "webpack": "^4.16.5",
+        "webpack-cli": "^2.0.12",
+        "webpack-dev-server": "^3.1.5"
+    },
+    "dependencies": {
+        "npm": "^6.4.0"
+    }
+}
